@@ -50,7 +50,7 @@ export function App() {
         render={() => (
           <div>
             <Link to="/">Click here to go back to root page.</Link>
-            <AnotherHello />
+            <AnotherHello.App />
           </div>
         )}
       />
