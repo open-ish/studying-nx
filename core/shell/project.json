@@ -1,6 +1,6 @@
 {
-  "root": "apps/shell",
-  "sourceRoot": "apps/shell/src",
+  "root": "core/shell",
+  "sourceRoot": "core/shell/src",
   "projectType": "application",
   "targets": {
     "build": {
@@ -9,13 +9,13 @@
       "defaultConfiguration": "production",
       "options": {
         "compiler": "babel",
-        "outputPath": "dist/apps/shell",
-        "index": "apps/shell/src/index.html",
+        "outputPath": "dist/core/shell",
+        "index": "core/shell/src/index.html",
         "baseHref": "/",
-        "main": "apps/shell/src/main.tsx",
-        "polyfills": "apps/shell/src/polyfills.ts",
-        "tsConfig": "apps/shell/tsconfig.app.json",
-        "assets": ["apps/shell/src/favicon.ico", "apps/shell/src/assets"],
+        "main": "core/shell/src/main.tsx",
+        "polyfills": "core/shell/src/polyfills.ts",
+        "tsConfig": "core/shell/tsconfig.app.json",
+        "assets": ["core/shell/src/favicon.ico", "core/shell/src/assets"],
         "styles": [],
         "scripts": [],
         "webpackConfig": "@nrwl/react/plugins/webpack"
@@ -24,8 +24,8 @@
         "production": {
           "fileReplacements": [
             {
-              "replace": "apps/shell/src/environments/environment.ts",
-              "with": "apps/shell/src/environments/environment.prod.ts"
+              "replace": "core/shell/src/environments/environment.ts",
+              "with": "core/shell/src/environments/environment.prod.ts"
             }
           ],
           "optimization": true,
@@ -54,14 +54,14 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["apps/shell/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["core/shell/**/*.{ts,tsx,js,jsx}"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/shell"],
+      "outputs": ["coverage/core/shell"],
       "options": {
-        "jestConfig": "apps/shell/jest.config.js",
+        "jestConfig": "core/shell/jest.config.js",
         "passWithNoTests": true
       }
     }
