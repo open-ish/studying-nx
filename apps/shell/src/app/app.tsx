@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import NxWelcome from './nx-welcome';
 import * as HelloNx from '@studying-nx/hello-nx';
+import * as AnotherHello from '@studying-nx/another-hello';
 import {Ui} from '@studying-nx/ui';
 
 import { Route, Link } from 'react-router-dom';
@@ -49,6 +50,7 @@ export function App() {
         render={() => (
           <div>
             <Link to="/">Click here to go back to root page.</Link>
+            <AnotherHello />
           </div>
         )}
       />
