@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import NxWelcome from './nx-welcome';
 import * as HelloNx from '@studying-nx/hello-nx';
 import * as AnotherHello from '@studying-nx/another-hello';
-import {Ui} from '@studying-nx/ui';
 
 import { Route, Link } from 'react-router-dom';
 
@@ -13,7 +12,6 @@ const StyledApp = styled.div`
 export function App() {
   return (
     <StyledApp>
-      <Ui />
       {/* <NxWelcome title="shell" /> */}
       <HelloNx.App />
 
@@ -44,6 +42,7 @@ export function App() {
           </div>
         )}
       />
+
       <Route
         path="/page-2"
         exact
