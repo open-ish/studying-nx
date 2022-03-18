@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@studying-nx/ui": ["libs/ui/src/index.ts"],
+      "@studying-nx/hello-nx": ["apps/hello-nx/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

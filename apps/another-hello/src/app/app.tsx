@@ -3,12 +3,15 @@ import NxWelcome from './nx-welcome';
 import { Ui } from '@studying-nx/ui';
 
 const StyledApp = styled.div`
-  color: black;
+  // Your style here
 `;
 
 export function App() {
   return (
-      <NxWelcome title="hello-nx" />
+    <StyledApp>
+      <Ui />
+      <NxWelcome title="another-hello" />
+    </StyledApp>
   );
 }
 

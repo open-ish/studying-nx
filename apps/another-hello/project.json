@@ -1,0 +1,73 @@
+{
+  "root": "apps/another-hello",
+  "sourceRoot": "apps/another-hello/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "compiler": "babel",
+        "outputPath": "dist/apps/another-hello",
+        "index": "apps/another-hello/src/index.html",
+        "baseHref": "/",
+        "main": "apps/another-hello/src/main.tsx",
+        "polyfills": "apps/another-hello/src/polyfills.ts",
+        "tsConfig": "apps/another-hello/tsconfig.app.json",
+        "assets": [
+          "apps/another-hello/src/favicon.ico",
+          "apps/another-hello/src/assets"
+        ],
+        "styles": [],
+        "scripts": [],
+        "webpackConfig": "@nrwl/react/plugins/webpack"
+      },
+      "configurations": {
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "apps/another-hello/src/environments/environment.ts",
+              "with": "apps/another-hello/src/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/web:dev-server",
+      "options": {
+        "buildTarget": "another-hello:build",
+        "hmr": true
+      },
+      "configurations": {
+        "production": {
+          "buildTarget": "another-hello:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/another-hello/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/another-hello"],
+      "options": {
+        "jestConfig": "apps/another-hello/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
