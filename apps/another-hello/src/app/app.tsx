@@ -3,7 +3,8 @@ import NxWelcome from './nx-welcome';
 import { Ui } from '@studying-nx/ui';
 
 const StyledApp = styled.div`
-  // Your style here
+  color: red;
+  width: 100%;
 `;
 
 export function App() {
