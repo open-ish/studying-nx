@@ -1,9 +1,10 @@
 {
   "version": 2,
   "projects": {
-    "shell": "core/shell",
     "another-hello": "apps/another-hello",
     "hello-nx": "apps/hello-nx",
+    "host": "apps/host",
+    "shell": "core/shell",
     "ui": "libs/ui"
   }
 }
