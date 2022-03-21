@@ -4,13 +4,13 @@ import styled from 'styled-components';
 export interface DsButtonProps {}
 
 const StyledDsButton = styled.div`
-  color: pink;
+  color: green;
 `;
 
 export function DsButton(props: DsButtonProps) {
   return (
     <StyledDsButton>
-      <h1>Welcome to DsButton!</h1>
+      <h1>My Ds!</h1>
     </StyledDsButton>
   );
 }

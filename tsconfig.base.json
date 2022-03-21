@@ -23,8 +23,7 @@
       ],
       "@studying-nx/packages/second-module": [
         "libs/packages/second-module/src/index.ts"
-      ],
-      "@studying-nx/ui": ["libs/ui/src/index.ts"]
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { PackagesFirstModule } from '@studying-nx/packages/first-module';
 import { PackagesSecondModule } from '@studying-nx/packages/second-module';
-import { Ui } from '@studying-nx/ui';
+import { DsButton } from '@studying-nx/ds/button';
 
 import { Route, Link } from 'react-router-dom';
 
@@ -15,6 +15,7 @@ export function App() {
   return (
     <StyledApp>
       <h1>Shell</h1>
+      {/* <DsButton /> */}
       <hr />
       <br />
       <div role="navigation">

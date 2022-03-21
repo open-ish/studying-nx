@@ -4,7 +4,6 @@
     "ds-button": "libs/ds/button",
     "packages-first-module": "libs/packages/first-module",
     "packages-second-module": "libs/packages/second-module",
-    "shell": "apps/shell",
-    "ui": "libs/ui"
+    "shell": "apps/shell"
   }
 }
