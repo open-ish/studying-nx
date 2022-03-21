@@ -3,7 +3,7 @@
   "projects": {
     "my-ds": "libs/my-ds",
     "packages-another-module": "libs/packages/another-module",
-    "packages-first-module": "libs/packages/first-module",
+    "packages-my-first-module": "libs/packages/my-first-module",
     "shell": "apps/shell"
   }
 }

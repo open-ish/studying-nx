@@ -21,8 +21,8 @@
       "@studying-nx/packages/another-module": [
         "libs/packages/another-module/src/index.ts"
       ],
-      "@studying-nx/packages/first-module": [
-        "libs/packages/first-module/src/index.ts"
+      "@studying-nx/packages/my-first-module": [
+        "libs/packages/my-first-module/src/index.ts"
       ]
     }
   },
