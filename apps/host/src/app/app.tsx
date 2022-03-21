@@ -1,14 +1,20 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
+import styled from 'styled-components';
 import NxWelcome from './nx-welcome';
+import * as HelloNx from '@studying-nx/hello-nx';
+import * as AnotherHello from '@studying-nx/another-hello';
 
 import { Route, Link } from 'react-router-dom';
 
+const StyledApp = styled.div`
+  // Your style here
+`;
+
 export function App() {
   return (
-    <>
-      <NxWelcome title="host" />
-      <div />
+    <StyledApp>
+      {/* <NxWelcome title="shell" /> */}
+      <HelloNx.App />
+
 
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}
@@ -23,6 +29,7 @@ export function App() {
           </li>
           <li>
             <Link to="/page-2">Page 2</Link>
+            {/* sads */}
           </li>
         </ul>
       </div>
@@ -36,17 +43,19 @@ export function App() {
           </div>
         )}
       />
+
       <Route
         path="/page-2"
         exact
         render={() => (
           <div>
             <Link to="/">Click here to go back to root page.</Link>
+            <AnotherHello.App />
           </div>
         )}
       />
       {/* END: routes */}
-    </>
+    </StyledApp>
   );
 }
 
