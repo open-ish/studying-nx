@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 import { PackagesFirstModule } from '@studying-nx/packages/first-module';
-import { PackagesSecondModule } from '@studying-nx/packages/second-module';
 import { MyComponent } from '@studying-nx/my-ds';
+import { PackagesAnotherModule } from "@studying-nx/packages/another-module"
 
 import { Route, Link } from 'react-router-dom';
 
@@ -42,7 +42,7 @@ export function App() {
         exact
         render={() => (
           <div>
-            <PackagesSecondModule />
+            <PackagesAnotherModule />
           </div>
         )}
       />

@@ -7,7 +7,7 @@ export interface PackagesFirstModuleProps {}
 export function PackagesFirstModule(props: PackagesFirstModuleProps) {
   return (
     <div className={styles['container']}>
-      <h1>Welcome to PackagesFirstModule!</h1>
+      <h1>Welcome to PackagesFirstModule</h1>
       <MyComponent />
     </div>
   );
