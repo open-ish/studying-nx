@@ -4,7 +4,6 @@
     "my-ds": "libs/my-ds",
     "packages-another-module": "libs/packages/another-module",
     "packages-first-module": "libs/packages/first-module",
-    "packages-second-module": "libs/packages/second-module",
     "shell": "apps/shell"
   }
 }
