@@ -4,7 +4,6 @@ import { Ui } from '@studying-nx/ui';
 
 const StyledApp = styled.div`
   color: red;
-  width: 100%;
 `;
 
 export function App() {
