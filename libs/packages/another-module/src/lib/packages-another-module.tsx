@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { MyComponent } from '@studying-nx/my-ds';
+// import { MyComponent } from '@studying-nx/my-ds';
 // import {date} from '@studying-nx/helpers/date'
 
 /* eslint-disable-next-line */
@@ -13,7 +13,7 @@ export function PackagesAnotherModule(props: PackagesAnotherModuleProps) {
   return (
     <StyledPackagesAnotherModule>
       <h1>Welcome to PackagesAnotherModule!!!!</h1>
-      <MyComponent />
+      {/* <MyComponent /> */}
     </StyledPackagesAnotherModule>
   );
 }
