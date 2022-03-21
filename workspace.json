@@ -1,9 +1,10 @@
 {
   "version": 2,
   "projects": {
-    "another-hello": "apps/another-hello",
-    "hello-nx": "apps/hello-nx",
-    "shell": "core/shell",
+    "ds-button": "libs/ds/button",
+    "packages-first-module": "libs/packages/first-module",
+    "packages-second-module": "libs/packages/second-module",
+    "shell": "apps/shell",
     "ui": "libs/ui"
   }
 }

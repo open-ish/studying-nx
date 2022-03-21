@@ -16,7 +16,14 @@
     "baseUrl": ".",
     "paths": {
       "@studying-nx/another-hello": ["apps/another-hello/src/index.ts"],
+      "@studying-nx/ds/button": ["libs/ds/button/src/index.ts"],
       "@studying-nx/hello-nx": ["apps/hello-nx/src/index.ts"],
+      "@studying-nx/packages/first-module": [
+        "libs/packages/first-module/src/index.ts"
+      ],
+      "@studying-nx/packages/second-module": [
+        "libs/packages/second-module/src/index.ts"
+      ],
       "@studying-nx/ui": ["libs/ui/src/index.ts"]
     }
   },
