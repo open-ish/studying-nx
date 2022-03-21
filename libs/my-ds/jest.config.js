@@ -1,9 +1,9 @@
 module.exports = {
-  displayName: 'ds-button',
-  preset: '../../../jest.preset.js',
+  displayName: 'my-ds',
+  preset: '../../jest.preset.js',
   transform: {
     '^.+\\.[tj]sx?$': 'babel-jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../../coverage/libs/ds/button',
+  coverageDirectory: '../../coverage/libs/my-ds',
 };

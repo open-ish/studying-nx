@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import DsButton from './ds-button';
+import MyComponent from './my-component';
 
-describe('DsButton', () => {
+describe('MyComponent', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<DsButton />);
+    const { baseElement } = render(<MyComponent />);
     expect(baseElement).toBeTruthy();
   });
 });

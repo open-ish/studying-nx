@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "ds-button": "libs/ds/button",
+    "my-ds": "libs/my-ds",
     "packages-first-module": "libs/packages/first-module",
     "packages-second-module": "libs/packages/second-module",
     "shell": "apps/shell"
