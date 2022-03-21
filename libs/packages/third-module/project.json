@@ -1,0 +1,23 @@
+{
+  "root": "libs/packages/third-module",
+  "sourceRoot": "libs/packages/third-module/src",
+  "projectType": "library",
+  "tags": ["packages"],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/packages/third-module/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/packages/third-module"],
+      "options": {
+        "jestConfig": "libs/packages/third-module/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

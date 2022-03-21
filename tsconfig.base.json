@@ -24,6 +24,9 @@
       ],
       "@studying-nx/packages/my-first-module": [
         "libs/packages/my-first-module/src/index.ts"
+      ],
+      "@studying-nx/packages/third-module": [
+        "libs/packages/third-module/src/index.ts"
       ]
     }
   },

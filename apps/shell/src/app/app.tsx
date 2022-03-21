@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { MyComponent } from '@studying-nx/my-ds';
 import { PackagesAnotherModule } from "@studying-nx/packages/another-module"
 import { PackagesMyFirstModule } from "@studying-nx/packages/my-first-module"
+import { PackagesThirdModule } from "@studying-nx/packages/third-module"
 
 import { Route, Link } from 'react-router-dom';
 
