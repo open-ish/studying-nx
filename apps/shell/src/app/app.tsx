@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
-import { MyComponent } from '@studying-nx/my-ds';
+// import { MyComponent } from '@studying-nx/my-ds';
+import { MyAnotherComponent } from '@studying-nx/ds';
 import { PackagesAnotherModule } from "@studying-nx/packages/another-module"
 import { PackagesMyFirstModule } from "@studying-nx/packages/my-first-module"
 import { PackagesThirdModule } from "@studying-nx/packages/third-module"
@@ -16,7 +17,6 @@ export function App() {
   return (
     <StyledApp>
       <h1>Shell</h1>
-      <MyComponent />
       <hr />
       <br />
       <div role="navigation">
@@ -26,6 +26,9 @@ export function App() {
           </li>
           <li>
             <Link to="/page-2">Page 2</Link>
+          </li>
+          <li>
+            <Link to="/page-3">Page 3</Link>
           </li>
         </ul>
       </div>
@@ -47,7 +50,15 @@ export function App() {
           </div>
         )}
       />
-      {/* END: routes */}
+      <Route
+        path="/page-3"
+        exact
+        render={() => (
+          <div>
+            <PackagesThirdModule />
+          </div>
+        )}
+      />
     </StyledApp>
   );
 }

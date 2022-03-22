@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "ds": "libs/ds",
     "helpers-date": "libs/helpers/date",
     "my-ds": "libs/my-ds",
     "packages-another-module": "libs/packages/another-module",
