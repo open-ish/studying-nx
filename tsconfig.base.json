@@ -19,7 +19,6 @@
       "@studying-nx/ds": ["libs/ds/src/index.ts"],
       "@studying-nx/hello-nx": ["apps/hello-nx/src/index.ts"],
       "@studying-nx/helpers/date": ["libs/helpers/date/src/index.ts"],
-      "@studying-nx/my-ds": ["libs/my-ds/src/index.ts"],
       "@studying-nx/packages/another-module": [
         "libs/packages/another-module/src/index.ts"
       ],

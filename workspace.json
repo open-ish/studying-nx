@@ -3,7 +3,6 @@
   "projects": {
     "ds": "libs/ds",
     "helpers-date": "libs/helpers/date",
-    "my-ds": "libs/my-ds",
     "packages-another-module": "libs/packages/another-module",
     "packages-my-first-module": "libs/packages/my-first-module",
     "packages-third-module": "libs/packages/third-module",
