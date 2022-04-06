@@ -1,9 +1,9 @@
 module.exports = {
-  displayName: 'packages-my-first-module',
+  displayName: 'packages-home',
   preset: '../../../jest.preset.js',
   transform: {
     '^.+\\.[tj]sx?$': 'babel-jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../../coverage/libs/packages/my-first-module',
+  coverageDirectory: '../../../coverage/libs/packages/affected',
 };

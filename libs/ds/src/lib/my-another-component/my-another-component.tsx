@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import Button from '@mui/material/Button';
 /* eslint-disable-next-line */
 export interface MyAnotherComponentProps {}
 
@@ -13,6 +13,7 @@ export function MyAnotherComponent(props: MyAnotherComponentProps) {
   return (
     <StyledMyAnotherComponent>
       <h1>This component is Buildable and comes from DS </h1>
+      <Button variant="contained">Contained</Button>
     </StyledMyAnotherComponent>
   );
 }

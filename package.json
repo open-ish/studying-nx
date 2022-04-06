@@ -17,7 +17,10 @@
     "react-router-dom": "5.3.0",
     "regenerator-runtime": "0.13.7",
     "styled-components": "5.3.3",
-    "tslib": "^2.0.0"
+    "tslib": "^2.0.0",
+    "@fontsource/roboto": "^4.5.5",
+    "@mui/material": "^5.5.3",
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
   },
   "devDependencies": {
     "@nrwl/cli": "13.9.3",
@@ -55,5 +58,8 @@
     "react-test-renderer": "17.0.2",
     "ts-jest": "27.0.5",
     "typescript": "~4.5.2"
+  },
+  "resolutions": {
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
   }
 }
