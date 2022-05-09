@@ -1,5 +1,4 @@
 {
-  "root": "libs/ds",
   "sourceRoot": "libs/ds/src",
   "projectType": "library",
   "tags": [],
@@ -35,7 +34,7 @@
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/libs/ds"],
       "options": {
-        "jestConfig": "libs/ds/jest.config.js",
+        "jestConfig": "libs/ds/jest.config.ts",
         "passWithNoTests": true
       }
     }

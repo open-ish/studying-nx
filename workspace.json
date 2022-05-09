@@ -3,8 +3,8 @@
   "projects": {
     "ds": "libs/ds",
     "helpers-date": "libs/helpers/date",
-    "packages-home": "libs/packages/home",
     "packages-affected": "libs/packages/affected",
+    "packages-home": "libs/packages/home",
     "packages-third-module": "libs/packages/third-module",
     "shell": "apps/shell"
   }

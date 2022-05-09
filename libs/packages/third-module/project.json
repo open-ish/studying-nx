@@ -1,5 +1,4 @@
 {
-  "root": "libs/packages/third-module",
   "sourceRoot": "libs/packages/third-module/src",
   "projectType": "library",
   "tags": ["packages"],
@@ -15,7 +14,7 @@
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/libs/packages/third-module"],
       "options": {
-        "jestConfig": "libs/packages/third-module/jest.config.js",
+        "jestConfig": "libs/packages/third-module/jest.config.ts",
         "passWithNoTests": true
       }
     }

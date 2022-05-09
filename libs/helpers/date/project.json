@@ -1,5 +1,4 @@
 {
-  "root": "libs/helpers/date",
   "sourceRoot": "libs/helpers/date/src",
   "targets": {
     "build": {
@@ -23,7 +22,7 @@
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/libs/helpers/date"],
       "options": {
-        "jestConfig": "libs/helpers/date/jest.config.js",
+        "jestConfig": "libs/helpers/date/jest.config.ts",
         "passWithNoTests": true
       }
     }

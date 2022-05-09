@@ -1,5 +1,4 @@
 {
-  "root": "libs/packages/affected",
   "sourceRoot": "libs/packages/affected/src",
   "projectType": "library",
   "tags": ["type:package", "scope:affected"],
@@ -35,7 +34,7 @@
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/libs/packages/affected"],
       "options": {
-        "jestConfig": "libs/packages/affected/jest.config.js",
+        "jestConfig": "libs/packages/affected/jest.config.ts",
         "passWithNoTests": true
       }
     }
