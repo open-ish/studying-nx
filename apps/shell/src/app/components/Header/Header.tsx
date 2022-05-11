@@ -20,7 +20,7 @@ export function Header() {
             <Link to="/">Home</Link>{' '}
           </DSButton>
           <DSButton>
-            <Link to="/page-2">Page 2</Link>{' '}
+            <Link to="/affected">Affected</Link>{' '}
           </DSButton>
         </DSButtonGroup>
       </Styles.Nav>
