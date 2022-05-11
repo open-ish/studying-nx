@@ -1,6 +1,5 @@
-import { DSBaseView, DSCodeSnippet } from '@studying-nx/ds';
+import { DSBaseView, DSSnippetGroup } from '@studying-nx/ds';
 import { useState } from 'react';
-import { Styles } from './styles';
 
 export function PackagesAffected() {
   const [listCommands, setListCommands] = useState([
@@ -20,17 +19,7 @@ export function PackagesAffected() {
       title="Affected command"
       shortDescription="Avoid running build, test, and lint scripts in unaffected packages"
     >
-      <Styles.CardContainer>
-        {listCommands.length &&
-          listCommands.map(({ title, code, commandName }) => {
-            return (
-              <Styles.Card key={commandName}>
-                <h2>{commandName}</h2>
-                <DSCodeSnippet title={title} code={code} />
-              </Styles.Card>
-            );
-          })}
-      </Styles.CardContainer>
+      <DSSnippetGroup listCommands={listCommands} />
     </DSBaseView>
   );
 }
