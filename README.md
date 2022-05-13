@@ -1,94 +1,53 @@
 
 
-# StudyingNx
+# StudyingNx (real case)
 
-This project was generated using [Nx](https://nx.dev).
+This project was generated using [Nx](https://nx.dev) and was used to define (or not) Nx as a solution in a real case.
 
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
+## The case
 
-🔎 **Smart, Fast and Extensible Build System**
+In our case, the system has been working a take of while already and has these main characteristics:
+- Monolith created by [vue-cli](https://cli.vuejs.org/guide/cli-service.html)
+- [Vue (JS Framework)](https://cli.vuejs.org)
+- The frontend team (and the company itself) has been growing significantly
+- The frontend team (and the company itself) has been growing significantly
+- The frontend team has a good communication and they wanna keep it as possible
+- The company is focused on quality, even if sometimes they reduce speed (development-wise, relaease-wise)
 
-## Adding capabilities to your workspace
+## Proposal (Nx)
 
-Nx supports many plugins which add capabilities for developing different types of applications and different tools.
+### Before get started
 
-These capabilities include generating applications, libraries, etc as well as the devtools to test, and build projects as well.
+It’s important to keep in mind that there are different approaches to solving that problem, and unfortunately and likely, all of them will have their problems. So, let's *bloom* our analytic part and keep our eyes on the prize: solve our problem. This way, even if we get a un perfection solution, we'll get one of the best ones!
 
-Below are our core plugins:
+`More about the proposal is coming soon`
 
+
+## Project main stack
+
+- [Nx](https://nx.dev)
 - [React](https://reactjs.org)
-  - `npm install --save-dev @nrwl/react`
-- Web (no framework frontends)
-  - `npm install --save-dev @nrwl/web`
-- [Angular](https://angular.io)
-  - `npm install --save-dev @nrwl/angular`
-- [Nest](https://nestjs.com)
-  - `npm install --save-dev @nrwl/nest`
-- [Express](https://expressjs.com)
-  - `npm install --save-dev @nrwl/express`
-- [Node](https://nodejs.org)
-  - `npm install --save-dev @nrwl/node`
 
-There are also many [community plugins](https://nx.dev/community) you could add.
+## Commands
 
-## Generate an application
+### Running locally 
 
-Run `nx g @nrwl/react:app my-app` to generate an application.
+`yarn && nx serve shell`
 
-> You can use any of the plugins above to generate applications as well.
+### Understand your workspace
 
-When using Nx, you can create multiple applications and libraries in the same workspace.
+Run `nx graph` to see a diagram of the dependencies of your projects.
 
-## Generate a library
-
-Run `nx g @nrwl/react:lib my-lib` to generate a library.
-
-> You can also use any of the plugins above to generate libraries as well.
-
-Libraries are shareable across libraries and applications. They can be imported from `@studying-nx/mylib`.
-
-## Development server
-
-Run `nx serve my-app` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `nx g @nrwl/react:component my-component --project=my-app` to generate a new component.
-
-## Build
+### Build
 
 Run `nx build my-app` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+### Running unit tests
 
 Run `nx test my-app` to execute the unit tests via [Jest](https://jestjs.io).
 
 Run `nx affected:test` to execute the unit tests affected by a change.
 
-## Running end-to-end tests
-
-Run `nx e2e my-app` to execute the end-to-end tests via [Cypress](https://www.cypress.io).
-
-Run `nx affected:e2e` to execute the end-to-end tests affected by a change.
-
-## Understand your workspace
-
-Run `nx graph` to see a diagram of the dependencies of your projects.
-
-## Further help
+### Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
-
-
-
-## ☁ Nx Cloud
-
-### Distributed Computation Caching & Distributed Task Execution
-
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-cloud-card.png"></p>
-
-Nx Cloud pairs with Nx in order to enable you to build and test code more rapidly, by up to 10 times. Even teams that are new to Nx can connect to Nx Cloud and start saving time instantly.
-
-Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
-
-Visit [Nx Cloud](https://nx.app/) to learn more.
