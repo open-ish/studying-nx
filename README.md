@@ -12,6 +12,7 @@ In this case, the system has been working a take of while already and has these 
 - The frontend team (and the company itself) has been growing significantly
 - The frontend team has a good communication and they wanna keep it as possible
 - The company is focused on quality, even if sometimes they reduce speed (development-wise, relaease-wise)
+- The company structure has cross-context squads
 
 ## Proposal (Nx and Module Federation)
 
