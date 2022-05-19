@@ -7,12 +7,16 @@ This project was generated using [Nx](https://nx.dev) and was used to define (or
 ## The case
 
 In this case, the system has been working a take of while already and has these main characteristics:
+
 - Monolith created by [vue-cli](https://cli.vuejs.org/guide/cli-service.html)
 - [Vue (JS Framework)](https://cli.vuejs.org)
 - The frontend team (and the company itself) has been growing significantly
 - The frontend team has a good communication and they wanna keep it as possible
 - The company is focused on quality, even if sometimes they reduce speed (development-wise, relaease-wise)
 - The company structure has cross-context squads
+- Coupled code
+
+The team has been resistant to working with poly repos. First, because the company structure does not favor a poly repo approach, once some squads have cross-context in the FrontEnd repository; the team wanna preserve their good communication, which can be harder with poly repos (regarding their previous experiences). `Even if said those points, it's important to understand that **repository management** (monorepo and polyrepo) is just a **step** into the architecture definition. And they do not necessarily exclude any pattern. E.g. we can have a monorepo orchestrating a micro frontend system, even though is usually applied in the polyrepo context.`
 
 ## Proposal (Nx and Module Federation)
 
@@ -40,8 +44,6 @@ Let's understand which problems the company wanna solve.
 We can get this part “extensible build system” and split it into two-part: Extensible: It’s extensible because Nx gives the environment to scale our system in an uncoupled way.  Build system: Because it automates the creation of executable applications from source code.
 
 So, in my eyes, Nx allows us to create a scalable project structure and also gives us tools to make more automatic as possible.
-
-It's important to understand that **repository management** (monorepo and polyrepo) is just a **step** into the architecture definition. And they do not necessarily exclude any pattern. E.g. we can have a monorepo orchestrating a micro frontend system, even though is usually applied in the polyrepo context. In other words, using Nx means - only - orchestrating our system in the same repository.
 
 ### Pros & Cons
 
