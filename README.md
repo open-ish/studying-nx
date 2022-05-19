@@ -16,7 +16,7 @@ In this case, the system has been working a take of while already and has these 
 - The company structure has cross-context squads
 - Coupled code
 
-The team has been resistant to working with polyrepos. First, because the company structure does not favor a polyrepo approach, once some squads have cross-context in the FrontEnd repository; the team wanna preserve their good communication, which can be harder with polyrepos (regarding their previous experiences). `Even if said those points, it's important to understand that **repository management** (monorepo and polyrepo) is just a **step** into the architecture definition. And they do not necessarily exclude any pattern. E.g. we can have a monorepo orchestrating a micro frontend system, even though is usually applied in the polyrepo context.`
+The team has been resistant to working with polyrepos. First, because the company structure does not favor a polyrepo approach, once some squads have cross-context in the FrontEnd repository; the team wanna preserve their good communication, which can be harder with polyrepos (regarding their previous experiences). Even if said those points, it's important to understand that **repository management** (monorepo and polyrepo) is just a **step** into the architecture definition. And `they do not necessarily exclude any pattern. E.g. we can have a monorepo orchestrating a micro frontend system`, even though is usually applied in the polyrepo context.
 
 ## Proposal (Nx and Module Federation)
 
