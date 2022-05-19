@@ -87,7 +87,7 @@ Module Federation provides a solution to the scaling problem by allowing a Singl
 
 Please, see these combinations as independent (because they are), which means we could start simple and improve it. The idea of this topic, that once I have searched about Nx, MF, and Nx Cloud, is exposing the pros and cons of combining these technologies. But for sure we can picture a timeline implementation where Combination 1 is implemented and then Combination 2 is implemented.
 
-#### Nx only ####
+1) #### Nx only ####
 
 pros: 
 
