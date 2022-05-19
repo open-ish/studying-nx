@@ -163,7 +163,7 @@ So, my recommendation would add [Nx (only)](#Nx-only) to the project and explore
 
 [Please see here pros and cons](#Nx-only)
 
-`More about the proposal is coming soon`
+`More about the proposal might come soon`
 
 
 ## Project main stack
