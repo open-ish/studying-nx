@@ -99,7 +99,7 @@ Cons:
 
 - Release time might not be too impacted (cached computation and incremental build just locally)
 
-*2) Nx and Nx Cloud*
+#### Nx and Nx Cloud ####
 
 pros: 
 
@@ -112,7 +112,7 @@ Cons:
 - Nx Cloud is not free.
 - Another technology to take care of
 
-*3) Nx and Module federation (not implicit dependency)*
+#### Nx and Module federation (not implicit dependency) ####
 
 pros: 
 
@@ -126,7 +126,7 @@ Cons:
 - Each independent module (host and remotes) must have multiple environments (remoteA.dev, remoteB.dev, remoteC.dev). It also might have a price impact
 - We might lose the Nx graph tool out of the box, once Nx will see each remote and host as independent (it might change in the Nx future versions). Including, we can try to use generators to solve it for us, I guess it is possible.
 
-*4) Nx and Module federation (implicit dependency)*
+#### Nx and Module federation (implicit dependency) ####
 
 pros: 
 
@@ -138,7 +138,7 @@ Cons:
 
 - Release time might not be too impacted (cached computation and incremental build just locally). Actually, without cached computation, and distributed computation caching remotely, it can **increase** release time.
 
-*5) Nx, Module federation (implicit dependency), and Nx Cloud*
+#### Nx, Module federation (implicit dependency), and Nx Cloud ####
 
 pros: 
 
@@ -158,7 +158,7 @@ Coming back again, Nx is a tool for first-class monorepo experience. So, add it 
 
 So, my recommendation would add [Nx (only)](#Nx-only) to the project and explore it little by little - defining git-flow and CI/CD, which gonna be a huge step. Later, we can add new technologies/approaches to help us in our target (as Module Federation, Nx Cloud).
 
-[Please see here pros and cons](####Nx-only)
+[Please see here pros and cons](#Nx-only)
 
 `More about the proposal is coming soon`
 
