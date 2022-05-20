@@ -173,13 +173,17 @@ So, my recommendation would add [Nx (only)](#Nx-only) to the project and explore
 
 ## Commands
 
-### Running locally 
+### Installing dependencies
 
-`yarn && nx serve shell`
+`yarn`
 
 ### Understand your workspace
 
 Run `nx graph` to see a diagram of the dependencies of your projects.
+
+### Running locally 
+
+`nx serve shell`
 
 ### Build
 
