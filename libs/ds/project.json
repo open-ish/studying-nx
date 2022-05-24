@@ -1,7 +1,7 @@
 {
   "sourceRoot": "libs/ds/src",
   "projectType": "library",
-  "tags": [],
+  "tags": ["type:util"],
   "targets": {
     "build": {
       "executor": "@nrwl/web:rollup",

@@ -1,7 +1,7 @@
 {
   "sourceRoot": "libs/packages/home/src",
   "projectType": "library",
-  "tags": ["type: package", "scope: home"],
+  "tags": ["type:feature"],
   "targets": {
     "build": {
       "executor": "@nrwl/web:rollup",
