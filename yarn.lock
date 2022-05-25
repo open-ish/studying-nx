@@ -2156,17 +2156,6 @@
     lz-string "^1.4.4"
     pretty-format "^27.0.2"
 
-"@testing-library/react-hooks@7.0.2":
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/@testing-library/react-hooks/-/react-hooks-7.0.2.tgz#3388d07f562d91e7f2431a4a21b5186062ecfee0"
-  integrity sha512-dYxpz8u9m4q1TuzfcUApqi8iFfR6R0FaMbr2hjZJy1uC8z+bO/K4v8Gs9eogGKYQop7QsrBTFkv/BCF7MzD2Cg==
-  dependencies:
-    "@babel/runtime" "^7.12.5"
-    "@types/react" ">=16.9.0"
-    "@types/react-dom" ">=16.9.0"
-    "@types/react-test-renderer" ">=16.9.0"
-    react-error-boundary "^3.1.0"
-
 "@testing-library/react@13.1.1":
   version "13.1.1"
   resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-13.1.1.tgz#6c1635e25acca8ca5be8ee3b19ad1391681c5846"
@@ -2440,13 +2429,6 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-dom@>=16.9.0":
-  version "17.0.14"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.14.tgz#c8f917156b652ddf807711f5becbd2ab018dea9f"
-  integrity sha512-H03xwEP1oXmSfl3iobtmQ/2dHF5aBHr8aUMwyGZya6OW45G+xtdzmq6HkncefiBt5JU8DVyaWl/nWZbjZCnzAQ==
-  dependencies:
-    "@types/react" "*"
-
 "@types/react-is@17.0.3", "@types/react-is@^16.7.1 || ^17.0.0":
   version "17.0.3"
   resolved "https://registry.yarnpkg.com/@types/react-is/-/react-is-17.0.3.tgz#2d855ba575f2fc8d17ef9861f084acc4b90a137a"
@@ -2471,13 +2453,6 @@
     "@types/history" "^4.7.11"
     "@types/react" "*"
 
-"@types/react-test-renderer@>=16.9.0":
-  version "17.0.1"
-  resolved "https://registry.yarnpkg.com/@types/react-test-renderer/-/react-test-renderer-17.0.1.tgz#3120f7d1c157fba9df0118dae20cb0297ee0e06b"
-  integrity sha512-3Fi2O6Zzq/f3QR9dRnlnHso9bMl7weKCviFmfF6B4LS1Uat6Hkm15k0ZAQuDz+UBq6B3+g+NM6IT2nr5QgPzCw==
-  dependencies:
-    "@types/react" "*"
-
 "@types/react-transition-group@^4.4.4":
   version "4.4.4"
   resolved "https://registry.yarnpkg.com/@types/react-transition-group/-/react-transition-group-4.4.4.tgz#acd4cceaa2be6b757db61ed7b432e103242d163e"
@@ -2485,7 +2460,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@>=16.9.0":
+"@types/react@*":
   version "17.0.41"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.41.tgz#6e179590d276394de1e357b3f89d05d7d3da8b85"
   integrity sha512-chYZ9ogWUodyC7VUTRBfblysKLjnohhFY9bGLwvnUFFy48+vB9DikmB3lW0qTFmBcKSzmdglcvkHK71IioOlDA==
@@ -8042,13 +8017,6 @@ react-dom@18.1.0:
     loose-envify "^1.1.0"
     scheduler "^0.22.0"
 
-react-error-boundary@^3.1.0:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/react-error-boundary/-/react-error-boundary-3.1.4.tgz#255db92b23197108757a888b01e5b729919abde0"
-  integrity sha512-uM9uPzZJTF6wRQORmSrvOIgt4lJ9MC1sNgEOj2XGsDTRE4kmpWxg7ENK9EWNKJRMAOY9z0MuF4yIfl6gp4sotA==
-  dependencies:
-    "@babel/runtime" "^7.12.5"
-
 react-is@18.1.0, "react-is@^16.12.0 || ^17.0.0 || ^18.0.0", react-is@^18.1.0:
   version "18.1.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.1.0.tgz#61aaed3096d30eacf2a2127118b5b41387d32a67"
@@ -9200,7 +9168,7 @@ ts-loader@^9.2.6:
     micromatch "^4.0.0"
     semver "^7.3.4"
 
-ts-node@~9.1.1:
+ts-node@9.1.1, ts-node@~9.1.1:
   version "9.1.1"
   resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-9.1.1.tgz#51a9a450a3e959401bda5f004a72d54b936d376d"
   integrity sha512-hPlt7ZACERQGf03M253ytLY3dHbGNGrAq9qIHWUY9XHYl1z7wYngSr3OQ5xmui8o2AaxsONxIzjafLUiWBo1Fg==
