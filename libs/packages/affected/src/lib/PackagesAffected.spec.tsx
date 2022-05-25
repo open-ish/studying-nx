@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import PackagesHome from './PackagesHome';
+import PackagesAffected from './PackagesAffected';
 
-describe('PackagesHome', () => {
+describe('PackagesAffected', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<PackagesHome />);
+    const { baseElement } = render(<PackagesAffected />);
     expect(baseElement).toBeTruthy();
   });
 });
