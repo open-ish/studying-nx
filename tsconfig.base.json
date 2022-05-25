@@ -17,7 +17,6 @@
     "paths": {
       "@studying-nx/another-hello": ["apps/another-hello/src/index.ts"],
       "@studying-nx/ds": ["libs/ds/src/index.ts"],
-      "@studying-nx/hello-nx": ["apps/hello-nx/src/index.ts"],
       "@studying-nx/helpers/date": ["libs/helpers/date/src/index.ts"],
       "@studying-nx/packages/affected": ["libs/packages/affected/src/index.ts"],
       "@studying-nx/packages/home": ["libs/packages/home/src/index.ts"],
