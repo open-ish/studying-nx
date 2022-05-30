@@ -1,8 +1,6 @@
 {
   "version": 2,
   "projects": {
-    "another": "apps/another",
-    "another-e2e": "apps/another-e2e",
     "ds": "libs/ds",
     "helpers-date": "libs/helpers/date",
     "packages-affected": "libs/packages/affected",
