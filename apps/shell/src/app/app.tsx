@@ -17,6 +17,7 @@ export function App() {
       <Styles.Content>
         <Routes>
           <Route path="/" element={<PackagesHome />} />
+          <Route path="/affected" element={<PackagesAffected />} />
         </Routes>
       </Styles.Content>
     </Styles.App>
